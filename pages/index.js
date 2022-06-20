@@ -36,9 +36,9 @@ export default function Home() {
                     
                       <div className = {styles.card}>
                         <div className = {styles.image}>
-                          <Image src = {post.attributes.cover.data.attributes.url} width={150} height={150}></Image>
+                          <Image src = {post.attributes.Cover.data.attributes.url} width={150} height={150}></Image>
                         </div>
-                        <h1>{post.attributes.title}</h1>
+                        <h1>{post.attributes.Title}</h1>
                        
                       </div>
                     
